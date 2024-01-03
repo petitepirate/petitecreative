@@ -263,6 +263,13 @@ button {
 .logo a img {
      z-index: 9999;
      position: relative;
+
+}
+
+@media (max-width:1400px) {
+     .logo a img {
+          display: none;
+     }   
 }
 
 .logo::before {
@@ -273,6 +280,8 @@ button {
      height: 86px;
      left: -75px;
      top: -24px;
+     max-width: 100%
+
 }
 
 
@@ -576,7 +585,7 @@ ul.social_icon li a:hover {
 }
 
 .about_img figure img {
-     width: 100%;
+     width: 70%;
      transition: all .5s;
 }
 
